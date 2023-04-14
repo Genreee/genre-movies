@@ -16,7 +16,6 @@
 /* 2xl */
 /* @media (min-width: 1536px) {}*/
 
-
 .container {
   width: 100%;
   margin-left: auto;
@@ -30,14 +29,11 @@
 }
 
 .btn {
-  background-color: orange;
+  background-color: yellow;
   color: var(--clr-dark);
-  padding: 0 0.5em;
-  margin-top: 1.3em;
 }
 
-
-a{
+a {
   text-decoration: none;
   color: red;
 }
@@ -56,11 +52,14 @@ a{
 
 /* lg */
 @media (min-width: 1024px) {
-  .btn{
-     margin-top: 0.9em;
+  .container {
+    max-width: 1024px;
+  }
+  .btn {
+    margin-top: 0.8em;
+    padding: 0 0.5em;
   }
 }
-
 /* xl */
 @media (min-width: 1280px) {
 }

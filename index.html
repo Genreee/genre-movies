@@ -9,20 +9,19 @@
   <meta name="keywords" content="web design, html, css, js">
   <title>Genre-Movies</title>
   <link href="https://api.fontshare.com/v2/css?f%5B%5D=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/abf754dcd1.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <header>
+  <header class="container">
     
 
-
-      <a href=""> <img class="header__logo" src="/public/Logo-icon.jpg" alt=""></a>
-
-     <a href=""> <button class="header__search-logo"><img src="/Search-icon.jpg" alt=""></button></a>
-      <input class="header__search" type="text" placeholder="find movies & TV">
-     
-
+      <a href=""> <img class="header__logo" src="/Logo-icon.jpg" alt=""></a>
+    <form class="form" action="">
+   <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+     <input class="header__search" type="text" placeholder="find movies & TV">
+    </form>
 
       <ul class="header__ul">
         <a href="">
@@ -39,9 +38,8 @@
         </a>
         <a href="">
           <li class="header__li">sign in</li>
-        </a>
-        <a href="">
-          <li class="header__li btn">sign up</li>
+          <a href="">
+            <li class="header__li btn">sign up</li>
         </a>
       </ul>
    

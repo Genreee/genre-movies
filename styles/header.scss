@@ -6,11 +6,10 @@ header {
 .header__ul {
   list-style: none;
   display: flex;
-  position: relative;
+  padding-left: 0;
 }
 
 .header__li {
-  margin-top: 0.8em;
   padding: 0.5em;
   color: var(--clr-light);
   background-color: var(--clr-semi-dark);
@@ -29,28 +28,25 @@ header {
   text-align: start;
   border-radius: 22px;
   border: none;
-  border: 1px solid white;
   font-size: var(--size-xxs);
   color: var(--clr-light);
-  width: 8rem;
-  height: 1rem;
-  padding-left: 1.8em;
-  margin-top: 1.3em;
 }
 
 .header__search::placeholder {
-  color: var(--clr-light);
   text-transform: capitalize;
 }
 
-.header__search-logo {
-  max-width: 1.5em;
-  position: absolute;
-  top: 0.8em;
-  left: 3.8em;
-  border: none;
-  background: transparent;
-  mix-blend-mode: color-dodge;
+.form{
+  display: flex;
+  margin-left: 1em;
+  align-items: center;
+}
+
+.fa-magnifying-glass{
+top: 1.1em;
+padding-left: 0.3em;
+position: absolute;
+color: var(--clr-light);
 }
 
 /* xs */
@@ -67,12 +63,15 @@ header {
 
 /* lg */
 @media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
   .header__ul {
-    left: 13em;
+    margin-left: 8em;
   }
   .header__li {
     font-size: var(--size-sm);
-     margin-top: 0.4rem;
+    margin-top: 0.4rem;
   }
   .header__logo {
     width: 8em;
@@ -80,18 +79,10 @@ header {
   }
   .header__search {
     font-size: var(--size-xs);
-    width: 15rem;
-    height: 1.3rem;
-    margin-left: 1em;
-    margin-top: 1.1em;
+    width: 17rem;
+    height: 1.8rem;
     padding-left: 2em;
   }
-  .header__search-logo {
-    max-width: 1.9em;
-    top: 0.9em;
-    left: 8.5em;
-  }
-
 }
 
 /* xl */
