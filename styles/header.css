@@ -30,6 +30,7 @@ header {
   border: none;
   font-size: var(--size-xxs);
   color: var(--clr-light);
+  padding-left: 2em;
 }
 
 .header__search::-moz-placeholder {
@@ -76,7 +77,6 @@ header {
     font-size: var(--size-xs);
     width: 17rem;
     height: 1.8rem;
-    padding-left: 2em;
   }
 }
 /* xl */
