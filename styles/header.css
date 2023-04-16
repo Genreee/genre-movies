@@ -1,6 +1,5 @@
 .container {
   max-width: 1024px;
-  border: 3px solid pink;
 }
 
 header {
@@ -11,16 +10,13 @@ header {
   color: bisque;
   position: absolute;
   top: 0.5rem;
-  border: 1px solid blue;
 }
 
 .header__ul {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  margin-right: 4.5em;
-  margin-left: 4.5em;
-  border: 1px solid gold;
+  align-items: center;
 }
 
 .header__li {
@@ -29,13 +25,12 @@ header {
 }
 
 .header__signup {
-  position: absolute;
-  top: 1em;
+  top: 1.2em;
 }
 
-@media (max-width: 708px) {
+@media (max-width: 1024px) {
   .container {
-    max-width: 570px;
+    max-width: 880px;
   }
   .header__ul {
     font-size: var(--size-xs);
@@ -45,9 +40,9 @@ header {
     top: 1.5em;
   }
 }
-@media (max-width: 570px) {
+@media (max-width: 880px) {
   .container {
-    max-width: 470px;
+    max-width: 700px;
   }
   .title {
     font-size: var(--size-xl);
@@ -59,11 +54,30 @@ header {
     top: 2.5em;
   }
 }
-@media (max-width: 470px) {
+@media (max-width: 700px) {
   .container {
-    max-width: 340px;
+    max-width: 600px;
+  }
+}
+@media (max-width: 446px) {
+  .container {
+    max-width: 380px;
   }
   .header__ul {
-    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: -0.5rem;
+    background-color: var(--clr-semi-dark);
+    margin-left: 0;
+  }
+  .header__li {
+    padding-bottom: 0.5em;
+  }
+  .header__signup {
+    margin-right: 1em;
+  }
+  .header__button {
+    background-color: var(--clr-semi-dark);
+    padding-left: 1em;
   }
 }/*# sourceMappingURL=header.css.map */
