@@ -21,7 +21,6 @@ header {
 }
 .header__li {
   background-color: var(--clr-semi-dark);
-
   padding: 1rem;
 }
 .header__signup {
@@ -82,5 +81,15 @@ header {
   .header__button {
     background-color: var(--clr-semi-dark);
     padding-left: 1em;
+  }
+}
+
+@media (max-width: 146px) {
+  .container {
+    max-width: 146px;
+  }
+  .title{
+    position: relative;
+    left: 2.5rem;
   }
 }
