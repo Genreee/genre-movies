@@ -1,0 +1,36 @@
+.section-1 {
+  display: flex;
+}
+
+.main-wrapper {
+  padding: 6em 4em;
+  width: 100%;
+  position: relative;
+}
+
+.main-wrapper::before {
+  content: "";
+  background-image: linear-gradient(to left, rgba(1, 1, 1, 0), rgba(1, 1, 1, 1)),
+    url(/bg-movies.jpeg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 66%;
+  height: 100%;
+  background-size: cover;
+  opacity: 90%;
+  z-index: -1;
+}
+
+.title {
+  margin-bottom: 1em;
+  text-transform: capitalize;
+}
+.main-p {
+  margin-bottom: 2em;
+}
+.main-btn {
+  height: 2.5em;
+  width: 5em;
+}
