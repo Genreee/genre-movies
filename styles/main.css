@@ -34,3 +34,24 @@
   height: 2.5em;
   width: 5em;
 }
+
+@media (max-width: 880px) {
+  .container {
+    max-width: 700px;
+  }
+   .main-p{
+   width: 70%;
+  
+}
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 300px;
+  }
+}
