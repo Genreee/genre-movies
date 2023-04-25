@@ -78,7 +78,7 @@ header {
     display: none;
   }
   .header-wrapper p.logo {
-    margin-right: 9em;
+    margin-right: 9.5em;
   }
   .logo {
     height: 1.5em;
@@ -133,7 +133,7 @@ header {
     max-width: 250px;
   }
   .header-wrapper p.logo {
-    margin-right: 4em;
+    margin-right: 3em;
   }
   .navbar-menu {
     padding: 3.5em 2em 2em 2em;
@@ -144,7 +144,7 @@ header {
     max-width: 200px;
   }
   .header-wrapper p.logo {
-    margin-right: 5.5em;
+    margin-right: 4.5em;
   }
   .logo {
     font-size: 1.5em;
