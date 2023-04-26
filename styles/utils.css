@@ -4,6 +4,7 @@
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  border: 1px solid gold;
 }
 
 .section {
@@ -20,4 +21,8 @@ a {
   color: var(--clr-dark);
   background-color: orange;
   text-transform: capitalize;
+}
+
+.logo{
+  font-family: 'Source Serif Pro', serif;
 }
