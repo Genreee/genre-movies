@@ -1,0 +1,49 @@
+.container {
+  
+}
+.section-2 {
+  height: 510px;
+}
+.section-2__title {
+  text-transform: capitalize;
+  margin-bottom: 0.5em;
+}
+.section-2__wrapper {
+  margin: 1rem;
+}
+.box {
+  display: flex;
+  gap: 0.8em;
+  margin-left: 1.2em;
+  margin-top: 2em;
+}
+.box img {
+  height: 20em;
+  width: 11.7em;
+}
+.a,
+.b,
+.c,
+.d,
+.e {
+  position: relative;
+  border: 2px solid var(--clr-semi-dark);
+  background-color: var(--clr-semi-dark);
+  font-size: small;
+}
+.a p,
+.b p,
+.c p,
+.d p,
+.e p {
+  font-size: xx-small;
+}
+
+.timer{
+  position: absolute;
+  right: 0.5em;
+  bottom: 0.5em;
+  font-size: xx-small;
+  background-color: black;
+  padding: 0.4em;
+}
