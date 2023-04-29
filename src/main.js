@@ -3,6 +3,7 @@ import "/styles/modern-normalize.css";
 import "/styles/header.css";
 import "/styles/main.css";
 import "/styles/section-2.css";
+import "/styles/footer.css";
 
 
 
