@@ -1,14 +1,15 @@
 .footer {
-  border: 1px solid gold;
   position: relative;
   display: flex;
   background-color: var(--clr-semi-dark);
+  max-width: 750px;
 
 }
 
 .footer-wrapper {
-  margin: 2em 0.5em 2em 12em;
+  margin: 2em 1em 2em 4.5em;
   font-size: x-small;
+  
 }
 
 .footer-wrapper ul {
@@ -16,10 +17,11 @@
   padding-left: 0.3em;
   gap: 0.5em;
   margin-right: 0.5em;
+   
 }
-
 .footer-wrapper li {
   list-style: none;
+  
 }
 
 .footer-wrapper h4 {
@@ -41,7 +43,7 @@
   font-size: x-small;
   margin-top: 2em;
   margin-bottom: 4em;
-  margin-left: 19em;
+  margin-left: 13em;
 }
 
 .h4-1 {
@@ -53,13 +55,57 @@
   font-size: xx-small;
   position: absolute;
   bottom: 0.5em;
-  left: 47em;
+  left: 32.5em;
   font-weight: 500;
 }
 .footer-title {
   color: yellow;
   font-size: x-large;
   margin-top: 0.5em;
-  margin-left: 3.5em;
+  margin-left: 0.5em;
   text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    min-width: 880px;
+  }
+  .footer{
+   max-width: 900px;
+  }
+  .footer-title {
+     margin-left: 0.7em;
+  }
+  .ar {
+    left: 39.5em;
+  }
+  .footer-wrapper-1{
+    margin-left: 19em;
+  }
+  .footer-wrapper {
+    margin-left: 12em;
+  }
+}
+
+@media (max-width: 880px) {
+   .footer{
+   max-width: 550px;
+  }
+  .ar {
+    left: 22em;
+  }
+
+}
+
+@media (max-width: 700px) {
+   .footer{
+   max-width: 350px;
+  }
+  .ar {
+    left: 15em;
+  }
+  .footer-wrapper-1{
+    font-size: xx-small;
+  }
+
 }
