@@ -56,9 +56,10 @@
   padding: 0.4em;
 }
 
-@media (max-width: 880px) {
+@media (max-width: 920px) {
+ 
   .box {
     gap: 2em;
-    margin-left: 4.2em;
+    
   }
 }

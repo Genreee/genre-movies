@@ -3,14 +3,11 @@
   display: flex;
   background-color: var(--clr-semi-dark);
   max-width: 750px;
-  
-  
 }
 
 .footer-wrapper {
   margin: 2em 1em 2em 4.5em;
   font-size: x-small;
-  
 }
 
 .footer-wrapper ul {
@@ -18,27 +15,22 @@
   padding-left: 0.3em;
   gap: 0.5em;
   margin-right: 0.5em;
-  
 }
 .footer-wrapper li {
   list-style: none;
-  
 }
 
 .footer-wrapper h4 {
   margin-bottom: 0.7em;
-  
 }
 
 .footer-img {
   height: 2em;
-  
 }
 
 .footer h4 {
   text-transform: capitalize;
   font-size: small;
-  
 }
 
 .footer-wrapper-1 {
@@ -47,13 +39,12 @@
   margin-top: 2em;
   margin-bottom: 4em;
   margin-left: 13em;
-  
 }
 
 .h4-1 {
   text-transform: capitalize;
   font-size: small;
-  
+
   margin-left: 5.5em;
 }
 .ar {
@@ -79,8 +70,9 @@
   .footer-title {
     margin-left: 0.7em;
   }
+
   .ar {
-    left: 44.5em;
+    left: 43.5em;
   }
   .footer-wrapper {
     margin-left: 10em;
@@ -89,26 +81,83 @@
 
 @media (max-width: 1023px) {
   .footer {
-    max-width: 980px;
+    max-width: 910px;
   }
   .ar {
-    left: 34em;
+    left: 37.5em;
   }
-   .footer-wrapper-1 {
+  .footer-wrapper-1 {
     font-size: xx-small;
     margin-left: 6em;
   }
-  
 }
 
-@media (max-width: 700px) {
+@media (max-width: 920px) {
   .footer {
-    max-width: 350px;
+    max-width: 850px;
   }
   .ar {
-    left: 15em;
+    left: 33.5em;
   }
   .footer-wrapper-1 {
+    font-size: xx-small;
+  }
+}
+@media (max-width: 849px) {
+  .ar {
+    margin-left: -6em;
+  }
+}
+
+@media (max-width: 749px) {
+  .ar {
+    margin-left: -11em;
+  }
+}
+
+@media (max-width: 649px) {
+  .ar {
+    margin-left: -16em;
+  }
+  .footer-wrapper-1 {
+    font-size: xx-small;
+  }
+}
+
+@media (max-width: 559px) {
+  .ar {
+    margin-left: -22em;
+  }
+}
+@media (max-width: 450px) {
+  .ar {
+    margin-left: -25em;
+  }
+}
+
+@media (max-width: 370px) {
+  .h4-1 {
+    margin-left: 1.5em;
+  }
+  .footer-wrapper ul {
+    width: 9em;
+    margin-left: -2em;
+  }
+}
+@media (max-width: 330px) {
+  .h4-1 {
+    margin-top: 3em;
+    margin-left: -15.5em;
+  }
+  .footer-wrapper ul {
+    width: 9em;
+    margin-left: -21em;
+  }
+  .footer-wrapper-1 {
+    margin-left: 4em;
+  }
+  .ar {
+    left: 26em;
     font-size: xx-small;
   }
 }

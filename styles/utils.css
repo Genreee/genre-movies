@@ -4,7 +4,6 @@
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-
 }
 
 .section {
@@ -23,6 +22,6 @@ a {
   text-transform: capitalize;
 }
 
-.logo{
-  font-family: 'Source Serif Pro', serif;
+.logo {
+  font-family: "Source Serif Pro", serif;
 }
