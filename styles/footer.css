@@ -101,7 +101,7 @@
     font-size: xx-small;
   }
 }
-@media (max-width: 889px) {
+@media (max-width: 880px) {
   .ar {
     margin-left: -6em;
   }
