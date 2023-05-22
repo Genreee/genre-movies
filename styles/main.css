@@ -37,14 +37,14 @@
 
 @media (max-width: 920px) {
   .section-1 {
-    max-width: 850px;
+    max-width: 880px;
   }
   .main-wrapper {
     padding-left: 2.5em;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 880px) {
   .section-1 {
     max-width: 750px;
   }
