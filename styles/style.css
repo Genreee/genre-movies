@@ -31,7 +31,7 @@ html {
 
 body {
   font-family: "General Sans", sans-serif;
-  background-color: var(--clr-dark);
+  background-color:  var(--clr-semi-dark);
   color: var(--clr-light);
 }
 

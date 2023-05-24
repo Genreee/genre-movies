@@ -4,7 +4,7 @@
 .section-5__title {
   text-transform: capitalize;
   margin-bottom: 0.5em;
- 
+
 }
 .section-2__wrapper,
 .section-3__wrapper,
@@ -27,6 +27,7 @@
 .box img {
   height: 16em;
   width: 11.7em;
+  
 }
 .a,
 .b,
@@ -38,6 +39,7 @@
   background-color: var(--clr-semi-dark);
   font-size: small;
   margin-top: 1em;
+     border: 2px solid var(--clr-dark);
 }
 .a p,
 .b p,

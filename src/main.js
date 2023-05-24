@@ -4,7 +4,8 @@ import "/styles/header.css";
 import "/styles/main.css";
 import "/styles/section-2.css";
 import "/styles/footer.css";
-
+import "/styles/darkmode.css";
+import "./darkmode.js";
 
 
 
