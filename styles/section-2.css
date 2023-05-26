@@ -39,7 +39,6 @@
   background-color: var(--clr-semi-dark);
   font-size: small;
   margin-top: 1em;
-     border: 2px solid var(--clr-dark);
 }
 .a p,
 .b p,
@@ -54,7 +53,7 @@
   right: 0.5em;
   bottom: 0.5em;
   font-size: xx-small;
-  background-color: black;
+  background-color: var(--clr-dark);
   padding: 0.4em;
 }
 
