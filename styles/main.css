@@ -1,12 +1,14 @@
 .section-1 {
   display: flex;
-
+  background-color: black;
+  color: var(--clr-light);
 }
 
 .main-wrapper {
   padding: 6em 4em;
   width: 100%;
   position: relative;
+  z-index: 9999;
 }
 
 .main-wrapper::before {
@@ -21,7 +23,7 @@
   height: 100%;
   background-size: cover;
   opacity: 90%;
-  z-index: -1;
+  z-index: -3;
 }
 
 .title {
