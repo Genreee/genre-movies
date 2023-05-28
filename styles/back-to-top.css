@@ -1,0 +1,13 @@
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 4rem;
+  z-index: 99;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  width: 2.8rem;
+  background: transparent;
+ 
+}

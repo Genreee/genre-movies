@@ -7,10 +7,9 @@
 }
 
 .footer-wrapper {
-  margin: 0.5em 1em 2em 4.5em;
+  margin: 1.5em 1em 2em 4.5em;
   font-size: x-small;
   text-align: center;
- 
 }
 
 .footer-wrapper ul {
@@ -42,6 +41,7 @@
   margin-top: 2em;
   margin-bottom: 4em;
   margin-left: 13em;
+  
 }
 
 .h4-1 {
